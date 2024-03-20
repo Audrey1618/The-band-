@@ -1,0 +1,137 @@
+/* PC */
+@media (min-width: 1024px) {
+	#header .menu-icon {
+		display: none;
+	}
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+	#header .menu-icon {
+		display: none;
+	}
+
+	#nav .sub-nav a {
+		padding: 24px 0;
+	}
+
+	.btn {
+		padding: 15px 16px;
+	}
+	.contact-form .form-control {
+		padding: 15px;
+	}
+
+	.contact-info {
+		line-height: 1.7 !important;
+	}
+
+	.socials-list a i {
+		font-size: 40px;
+		padding: 0 10px;
+	}
+
+	.copyright {
+		font-size: 30px;
+	}
+}
+
+/* Mobile */
+@media (max-width: 740px) {
+	/* html {  
+        font-size: 18px;
+    } */
+
+	#nav {
+		display: block;
+		position: relative;
+	}
+
+	.nav-header {
+		width: fit-content;
+	}
+
+	#nav > li {
+		display: block;
+	}
+
+	#header .search-button {
+		display: none;
+	}
+	#header {
+		overflow: hidden;
+	}
+
+	#nav .subnav {
+		position: initial;
+		background-color: #333;
+		color: #fff;
+	}
+
+	#nav li a {
+		width: 100%;
+		/* display: block */
+	}
+
+	#nav .subnav a {
+		color: #fff;
+		padding: 16px 40px;
+	}
+
+	.mobile-menu-btn {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	#content .team-section .member-section {
+		width: 100%;
+		/* margin: 16px; */
+		padding: 0;
+	}
+
+	.ticket-details {
+		width: 100%;
+		padding: 16px;
+	}
+
+	.buy-button {
+		padding: 16px;
+		font-size: 16px;
+	}
+
+	.row.contact-content {
+		display: block;
+	}
+
+	.col.col-half.contact-info {
+		width: 100%;
+		padding: 0;
+		margin-bottom: 16px;
+	}
+
+	.col.col-half.contact-form {
+		width: 100%;
+		padding: 0;
+		/* margin-left: -16px; */
+	}
+
+	.row {
+		padding-top: 12px;
+		font-size: 16px;
+	}
+
+	.row .col.col-half {
+		width: 100%;
+		padding: 0;
+	}
+
+	.row .col.col-full {
+		width: 100%;
+		padding: 0;
+	}
+
+    .send-btn {
+        padding: 16px;
+    }
+}
